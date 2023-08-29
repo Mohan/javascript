@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onchange</title>
+    <style>
+        .center{
+            display:flex;
+            align-items: center;
+            margin: 50px;
+
+
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <p class="center">select any car name of your choice</p>
+    <div class="center">
+        
+        
+        <select id="abc" onchange="select()" class="formgroup bg-primary text-white">
+            <option class="formcontrol">Suzuke</option>
+            <option class="formcontrol">Audi</option>
+            <option class="formcontrol">Benz</option>
+            <option class="formcontrol">RolceRoyals</option>
+            <option class="formcontrol">Landrover</option>
+            <option class="formcontrol">Rangerover</option>
+            <option class="formcontrol">Lexus</option>
+        </select>
+    </div>
+    <p id="xyz" class="m-5"></p>
+    
+    
+</body>
+<script src="./onchange.js"></script>
+</html>
